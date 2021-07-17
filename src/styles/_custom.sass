@@ -1,0 +1,115 @@
+.img-450
+    width: 450px !important
+    margin: auto
+.img-450-
+    width: 450px !important  
+.img-300
+    width: 300px !important
+    margin: auto     
+.img-250
+    width: 250px !important
+    margin: auto      
+.t-l
+  text-align: left
+.pasos-a.color-acento-contenido .pasos-a__circle div 
+    color: #fdfdfd   !important 
+    text-transform: lowercase !important
+.texto-der
+  text-align: left !important    
+.tb-h
+  color: #fdfdfd   !important 
+  background-color: #D9A171 
+  text-align: center
+.linea-tiempo-b.color-secundario .linea-tiempo-b__icon 
+    background-color: #FAFAFA
+
+.bloque-texto-d.color-secundario:before
+    background-color: #D8E4EF
+.aaa 
+    border-top: 0px 
+.square
+  padding: 0.35rem 0.65rem
+  margin-right: 7px
+  color: white
+  background-color: #D9A171   
+  border-radius: 30px 
+
+.linea-tiempo-d.color-acento-contenido .linea-tiempo-d__item--selected .linea-tiempo-d__item__number 
+    background-color: #F6F6F6
+.ch
+  color: #6595BF   !important
+.fond6
+    background-color: #FAFAFA  
+.tb-c
+  background-color: #F6F6F6
+  vertical-align: text-top
+  text-align: justify
+.fondo5
+    background-color: #D8E4EF    !important
+.fondo4
+    background-color: #F6F6F6    !important    
+.fond3
+    background-color: #CF976C  !important
+.fond2
+  background-color: #D8E4EF !important   
+.fond1 
+  position: relative
+  display: flex
+  flex-direction: row
+  z-index: 1
+  &::before
+    content: ""
+    position: absolute
+    top: 0
+    right: 0
+    width: 90%
+    height: 100%    
+    background-color: #D8E4EF
+    z-index: -1
+  &__txt
+    position: relative
+    right: -10%
+    width: 90%
+    height: 100%    
+    
+.t-gr
+  font-size: 2.5em
+  color: #D9A171
+
+.t-gr2
+  font-size: 1em
+      
+$crd-icon-size: 120px
+$crd-padding: 1.5rem
+$crd-width: calc(100% - ((#{$crd-icon-size} / 2))
+  
+.crd_01 
+  position: relative
+  display: flex
+  flex-direction: row
+  justify-content: start
+  align-items: center 
+  padding: 1.5rem 1.5rem 1.5rem 0   
+  z-index: 1
+  //background-color: pink
+  &::before
+    content: ""
+    position: absolute
+    top: 0
+    right: 0
+    width: $crd-width
+    height: 100%    
+    background-color: #E0EAF2
+    border-radius: 15px
+    z-index: -1
+  &__icon
+    order: 1
+    flex-basis: auto
+    width: $crd-icon-size
+    margin-right: 15px
+    img   
+      width: $crd-icon-size
+  &__txt
+    flex: 1 
+    order: 2  
+
