@@ -100,19 +100,13 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo: 'Elementos de la nómina de producción',
+            titulo: 'Liquidación de la nómina',
             hash: 't_2_3',
           },
         ],
       },
     ],
     subMenu: [
-      {
-        nombreRuta: 'actividad',
-        icono: 'far fa-question-circle',
-        titulo: 'Actividad didáctica',
-        desarrolloContenidos: true,
-      },
       {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
@@ -163,23 +157,24 @@ export default {
         'https://economipedia.com/definiciones/contabilidad-financiera.html',
     },
     {
-      referencia: 'Estatuto Tributario Nacional. (2012). Art. 114 - 1.',
-      link: 'Exoneración de aportes. https://estatuto.co/?e=1460',
+      referencia:
+        'Estatuto Tributario Nacional. (2012). Art. 114 - 1. -Exoneración de aportes.',
+      link: 'https://estatuto.co/?e=1460',
     },
     {
       referencia: 'Gerencie.com. (2021). Devengado.',
       link: 'https://www.gerencie.com/partes-de-la-nomina.html',
     },
     {
-      referencia: 'Gerencie. com. (2020). Salario.',
+      referencia: 'Gerencie.com. (2020). Salario.',
       link: 'https://www.gerencie.com/salario.html ',
     },
     {
-      referencia: 'Gerencie. com. (2021). Deducciones.',
+      referencia: 'Gerencie.com. (2021). Deducciones.',
       link: 'https://www.gerencie.com/partes-de-la-nomina.html',
     },
     {
-      referencia: 'Gerencie. com. (2021). Seguridad social.',
+      referencia: 'Gerencie.com. (2021). Seguridad social.',
       link:
         'https://www.gerencie.com/que-es-la-seguridad-social-en-una-relacion-laboral.html',
     },
@@ -234,7 +229,7 @@ export default {
     {
       termino: 'Contabilidad de costos',
       significado:
-        'parte de la contabilidad financiera que se encarga de la acumulación de los costos de fabricación para determinar el costo unitario del producto',
+        'parte de la contabilidad financiera que se encarga de la acumulación de los costos de fabricación para determinar el costo unitario del producto.',
     },
     {
       termino: 'Costo',
@@ -246,11 +241,7 @@ export default {
       significado:
         'término utilizado para describir el costo de la mano de obra directa con los costos indirectos.',
     },
-    {
-      termino: 'Costo fijo',
-      significado:
-        'costo que permanece constante en su total, independientemente de cambios en el nivel de actividad.',
-    },
+
     {
       termino: 'Costos indirectos',
       significado:
@@ -265,6 +256,11 @@ export default {
       termino: 'Costos del producto',
       significado:
         'costos involucrados en la fabricación de bienes, tales como materiales directos, mano de obra directa y costos indirectos de fabricación.',
+    },
+    {
+      termino: 'Costo fijo',
+      significado:
+        'costo que permanece constante en su total, independientemente de cambios en el nivel de actividad.',
     },
     {
       termino: 'Mano de obra',
@@ -333,24 +329,24 @@ export default {
         nombre: 'Francisco José Lizcano Reyes',
         cargo: 'Responsable del equipo',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Leyson Fabian Castaño Perez',
         cargo: 'Soporte organizacional',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
         nombre: 'Luis Zenen Arevalo Mantilla',
         cargo: 'Diseño web',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Jorge Leonardo Camacho Pardo',
         cargo: 'Desarrollo Front-End',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Zuleidy Maria Ruiz Torres',
@@ -358,17 +354,17 @@ export default {
         centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
-        nombre: ' ',
+        nombre: 'Jenny Paola Montillo Gélvez',
         cargo: 'Validación de diseño y contenido',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
     ],
     gestoresRepositorio: [
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
     ],
   },

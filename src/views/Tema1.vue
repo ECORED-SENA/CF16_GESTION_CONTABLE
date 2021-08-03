@@ -24,11 +24,11 @@
 
     .row.justify-content-around.align-items-center.p-5  
       
-      .col-lg.justify-content-md-center.align-self-center    
+      .col-lg.justify-content-md-center.align-self-center.mb-5  
         .ul.lista-ul--color
           li 
             i.fas.fa-check
-            p Es una contabilidad analítica en la cual se pueden identificar todas las partes involucradas para dar vida un producto o un servicio específico.
+            p Es una contabilidad analítica en la cual se pueden identificar todas las partes involucradas para dar vida a un producto o un servicio específico.
           li 
             i.fas.fa-check
             p Los costos permiten ver con claridad cómo está la organización, su punto de partida y de llegada para ajustar algunas variables en el camino del desarrollo de la misma.
@@ -51,7 +51,7 @@
           li 
             .lista-ol--cuadro__vineta
               span b
-            | Determinación del costo unitario y su valoración (ya sea bienes o servicios)
+            | Determinación del costo unitario y su valoración (ya sea bienes o servicios).
           li 
             .lista-ol--cuadro__vineta
               span c
@@ -67,7 +67,7 @@
 
       .col-12.col-lg-auto.justify-content-md-center.mb-4  
         img(src="@/assets/tema1/img-2.svg")
-      p A continuación, se realiza una breve descripción de los objetivos: 
+      p.mb-5 A continuación, se realiza una breve descripción de los objetivos: 
       PasosA.color-acento-contenido.mb-5(tipo="l")
         div
           h3 Planificar y controlar las operaciones y los costos
@@ -75,9 +75,9 @@
 
         div
           h3 Determinar del costo unitario y su valoración
-          p Algunas empresas no aplican la contabilidad de costos en la producción de sus bienes, y muchas de ellas no conocen cuánto les cuesta producir, distribuir y administrar sus productos o servicios; y, por ende, lo que logran un fracaso silencioso. 
+          p Algunas empresas no aplican la contabilidad de costos en la producción de sus bienes, y muchas de ellas no conocen cuánto les cuesta producir, distribuir y administrar sus productos o servicios; y, por ende, lo que logran es un fracaso silencioso. 
 
-          p Podría decirse que el principal objetivo de la contabilidad de costos es la correcta determinación del costo unitario; ya que una vez definido este se puede fijar un precio de venta. 
+          p Podría decirse que el principal objetivo de la contabilidad de costos es la correcta determinación del costo unitario; ya que una vez definido este, se puede fijar un precio de venta. 
 
           p La determinación y valoración del costo unitario pretenden:
           .row
@@ -113,7 +113,7 @@
 
     #t_1_3.titulo-segundo
       h2 1.3 Diferencia entre costo de venta y costo de producción
-
+    p.mb-5 En este apartado se conocerá un poco más de las definiciones de los costos y, de esta manera, seguir fortaleciendo el proceso formativo.
     .row.fond1.mb-5
         spam 
           i.t-gr.text-bold ¿
@@ -132,7 +132,7 @@
             i.t-gr.text-bold ¿
             spam.text-bold.t-gr2  Qué es un costo de producción
             i.t-gr.text-bold ?
-          p.fond1__txt Son los recursos necesarios para elaborar o crear un bien o un servicio. Para determinar su valor se tiene en cuenta los elementos del costo: materia prima directa, mano de obra directa y Costos Indirectos de Fabricación (CIF).
+          p.fond1__txt Son los recursos necesarios para elaborar o crear un bien o un servicio. Para determinar su valor se tienen en cuenta los elementos del costo: materia prima directa, mano de obra directa y Costos Indirectos de Fabricación (CIF).
     separador
 
     #t_1_4.titulo-segundo
@@ -147,34 +147,35 @@
     h4.mb-5 Costo 
     p Es el valor que se genera al producir un bien o prestar un servicio, el costo es recuperable al realizar la venta de este. Para identificar el costo es fundamental conocer el tipo de empresa, la cual puede ser comercial, industrial y de servicios; conforme a ello se identifica lo que cuesta el bien o servicio. A continuación, se observa el comparativo de cada una de estas mediante un ejemplo:
 
-    .row.mb-5
+    .row.mb-5.mx-4
+
       table
-        thead.tb-h
-          tr
-            th    Empresa comercial   
-            th    Empresa industrial   
-            th    Empresa de servicios   
         tbody
+          tr.tb-h
+            td.r-r    Empresa comercial   
+            td.r-r    Empresa industrial   
+            td.r-r    Empresa de servicios   
+        
           tr.tb-c
-            td.tb-c
+            td.tb-c.b-i
               p El costo en este tipo de empresa   es el valor de adquisici&oacute;n del producto que se desea vender.
             td.tb-c
-              p Para determinar el costo en   empresas manufactureras intervienen los tres elementos del costo. Materia   Prima Directa (MPD), Mano de Obra Directa y los Costos Indirectos de   Fabricaci&oacute;n (CIF).
-            td.tb-c
+              p Para determinar el costo en   empresas manufactureras intervienen los tres elementos del costo. Materia   Prima Directa (MPD), Mano de Obra Directa (MOD) y los Costos Indirectos de   Fabricaci&oacute;n (CIF).
+            td.tb-c.b-d
               p En este tipo de empresa prima el   factor intelectual y los insumos que se requieren para llevar a cabo la   prestaci&oacute;n del servicio.
           tr.tb-h
-            td    Ejemplo   
-            td    Ejemplo   
-            td    Ejemplo   
+            td.r-r    Ejemplo   
+            td.r-r    Ejemplo   
+            td.r-r    Ejemplo   
           tr
-            td.tb-c
+            td.tb-c.b-i.b-b
               p La empresa Surtimodas S.A.S. se   dedica a vender jeans. Por lo tanto, el costo del producto es el valor de la   compra del jean, posteriormente se fija el precio de venta al p&uacute;blico.
-            td.tb-c
+            td.tb-c.b-b
               p La empresa Fashion's se dedica   a producir jeans. Los elementos del costo son:       
               p.mb-2 #[strong MPD:] tela, botones, cremalleras,   hilos.   
               p.mb-2 #[strong MOD:] salario de los operarios que   confeccionan el jean, como lo son: cortadores, fileteadoras, hojalateros,   cosedores, bordadores, etc.    
               p.mb-2 #[strong CIF:] depreciaci&oacute;n y mantenimiento   de maquinaria y equipo, arrendamiento, seguros y servicios de la planta de   producci&oacute;n, etc.
-            td.tb-c
+            td.tb-c.b-d.b-b
               | En una empresa de servicio de   telefon&iacute;a interviene en el costo: pago de servicios p&uacute;blicos de telefon&iacute;a   fija y celular, licencias de software, salarios de los operadores, insumos de   papeler&iacute;a, tintas.
 
     h4 Gasto 
@@ -210,49 +211,49 @@
     separador
     #t_1_7.titulo-segundo
       h2 1.7 Normas contables aplicables a los costos de ventas y producción
-    p En este contexto es fundamental tener en cuenta la Norma Internacional de Contabilidad (NIC) 2 Inventarios, que se encuentra compuesto así: 
-    p.text-bold Figura 1
+    p En este contexto es fundamental tener en cuenta la Norma Internacional de Contabilidad (NIC) 2 Inventarios, que se encuentra compuesta así: 
+    p.r-n.text-bold  Elementos de la NIC 2
+
     .row.justify-content-around.align-items-center.mb-5
       .col-lg-9.justify-content-md-center.align-self-center
         figure.mb-5    
-          img(src="@/assets/tema1/img-7.svg") 
+          img.img-450(src="@/assets/tema1/img-7.svg") 
 
     h3 Medición NIC 2          
     p Para la medición de inventarios es importante tener en cuenta:
-    p.text-bold Figura 2
-
+    p.r-n.text-bold  Medición siguiendo la NIC 2
     .row.justify-content-around.align-items-center.mb-5
       .col-lg-9.justify-content-md-center.align-self-center
         figure.mb-5    
-          img(src="@/assets/tema1/img-8.svg")     
+          img.img-300(src="@/assets/tema1/img-8-.svg")     
 
-    p Según la NIC 2, el costo de inventarios incluye el costo de adquisición, costos de transformación y otros costos atribuibles. Cabe resaltar que los costes de transformación de las existencias comprenderán aquellos costes directamente relacionados con las unidades producidas, tales como la mano de obra directa. También comprenderán una parte, calculada de forma sistemática, de los costes indirectos, variables o fijos, en los que se haya incurrido para transformar las materias primas en productos terminados (NIC 2, s.f., pp. 1-8).
+    p.mb-5 Según la NIC 2, el costo de inventarios incluye el costo de adquisición, costos de transformación y otros costos atribuibles. Cabe resaltar que los costes de transformación de las existencias comprenderán aquellos costes directamente relacionados con las unidades producidas, tales como la mano de obra directa. También comprenderán una parte, calculada de forma sistemática, de los costes indirectos, variables o fijos, en los que se haya incurrido para transformar las materias primas en productos terminados (NIC 2, s.f., pp. 1-8).
 
     h3 Métodos de valoración         
     p Dentro de los métodos de valoración de inventarios se encuentran:
-    p.text-bold Figura 3
-    .row.justify-content-around.align-items-center
+    p.r-n.text-bold Métodos de valoración NIC 2
+    .row.justify-content-around.align-items-center.mb-5
       .col-lg-9.justify-content-md-center.align-self-center
         figure    
-          img(src="@/assets/tema1/img-9.svg")         
+          img.img-300(src="@/assets/tema1/img-9.svg")         
     .row.justify-content-around.align-items-center.mb-5
       .col-lg-9.justify-content-md-center.align-self-center
         .ul.lista-ul--color.texto-der
           li 
             i.fas.fa-check
-            p #[strong Método PEPS:] primeras en entrar, primera en salir. Significa que las unidades del inventario quedan valoradas a los últimos precios de las entradas.
+            p #[strong Método PEPS:] primeras en entrar, primeras en salir. Significa que las unidades del inventario quedan valoradas a los últimos precios de las entradas.
           li 
             i.fas.fa-check
             p #[strong Método Promedio Ponderado:] hace referencia al cálculo promedio de cada uno de los artículos del inventario.
-    h3 Valor neto realizable
-    p Es el precio estimado de venta de un activo en el curso normal de la explotación, menos los costes estimados para terminar su producción y los necesarios para llevar a cabo la venta (Varón, 2017, párr. 2).
+    h3.mb-5 Valor neto realizable
+    p.mb-5 Es el precio estimado de venta de un activo en el curso normal de la explotación, menos los costes estimados para terminar su producción y los necesarios para llevar a cabo la venta (Varón, 2017, párr. 2).
 
-    .row.justify-content-around.align-items-center.mb-3
+    .row.justify-content-around.align-items-center.mb-5
       .col-lg-10.justify-content-md-center.align-self-center        
         .cajon.color-primario.p-4.mb-4.fond2
             .h5 Valor neto realizable
             p Costo de los inventarios puede no ser recuperable en caso de que los mismos estén dañados, si han devenido parcial o totalmente obsoletos, o bien si sus precios de mercado han caído. Asimismo, el costo de los inventarios puede no ser recuperable si los costos estimados para su terminación o su venta han aumentado. La práctica de rebajar el saldo, hasta que el costo sea igual al valor neto realizable, es coherente con el punto de vista según el cual los activos no deben registrarse en libros por encima de los importes que se espera obtener a través de su venta o uso.
-    p Los costos indirectos de fabricación hacen parte de los costos de transformación, según se describe en los párrafos 12 a 14 de la NIC 2 Inventarios, para conocerlos se invita a ingresar en el siguiente sitio:              
+    p.mb-5 Los costos indirectos de fabricación hacen parte de los costos de transformación, según se describe en los párrafos 12 a 14 de la NIC 2 Inventarios, para conocerlos se invita a ingresar en el siguiente sitio:              
          
     .row.justify-content-around.align-items-center.mb-5
       .col-lg-10.justify-content-md-center.align-self-center
@@ -263,7 +264,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  p.mb-1.texto-blanco.text-bold  NIC 2 Inventarios
+                  p.mb-1.texto-blanco.text-bold NIC 2 Inventarios
                   
                 .col-sm-auto
                   a.boton.color-acento-botones(:href="obtenerLink('/downloads/2_NIC.pdf')" target="_blank")
@@ -278,13 +279,13 @@
 
       .col-12.col-lg-auto.justify-content-md-center.mb-4 
         figure    
-            img(src="@/assets/tema1/img-11.svg")  
+            img.img-450(src="@/assets/tema1/img-11.png")  
 
     .row.justify-content-around.align-items-center
 
       .col-12.col-lg-auto.justify-content-md-center.mb-4 
         figure    
-            img(src="@/assets/tema1/img-12.svg")     
+            img.img-450(src="@/assets/tema1/img-12.svg")     
       .col-lg.justify-content-md-center.align-self-center.mb-3           
         p #[strong Objetivo:] el objetivo de esta norma es prescribir el tratamiento contable de los inventarios. Un tema fundamental en la contabilidad de los inventarios es la cantidad de costo que debe reconocerse como un activo, para que sea diferido hasta que los ingresos correspondientes sean reconocidos. Esta norma suministra una guía práctica para la determinación de ese costo, así como para el subsiguiente reconocimiento como un gasto del periodo, incluyendo también cualquier deterioro que rebaje el importe en libros al valor neto realizable. También suministra directrices sobre las fórmulas del costo que se usan para atribuir costos a los inventarios (NIC, s.f., pp. 4-16).
         p #[strong Alcance:] esta norma se aplica a todos los inventarios, excepto a: (a) [eliminado] (b) los instrumentos financieros (véanse las NIC 32 Instrumentos financieros: presentación y NIIF 9 Instrumentos financieros); y (c) los activos biológicos relacionados con la actividad agrícola y productos agrícolas en el punto de cosecha o recolección (ver la NIC 41 Agricultura). 
@@ -305,7 +306,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  p.mb-1.texto-blanco.text-bold  NIC 2 Inventarios
+                  p.mb-1.texto-blanco.text-bold Para ampliar los conocimientos sobre la norma, favor ingresar en la NIC 2 a través del siguiente enlace   
                   
                 .col-sm-auto
                   a.boton.color-acento-botones(:href="obtenerLink('/downloads/NIC 2 - Inventarios.pdf')" target="_blank")
@@ -315,11 +316,11 @@
     separador
     #t_1_8.titulo-segundo
       h2 1.8 Elementos de costo
-    p Los elementos de costo de producción intervienen en una empresa industrial o manufacturera que se encarga de transformar materia prima en productos terminados. La sumatoria de los conceptos de MPD; MOD y CIF es lo que se considera como costo de producción. 
+    p.mb-5 Los elementos de costo de producción intervienen en una empresa industrial o manufacturera que se encarga de transformar materia prima en productos terminados. La sumatoria de los conceptos de MPD; MOD y CIF es lo que se considera como costo de producción. 
     .row.justify-content-around.align-items-center.mb-3
       .col-lg-10.justify-content-md-center.align-self-center        
         .cajon.color-primario.p-4.mb-4.fond2
-            p La fabricación de artículos o productos acabados requiere de la intervención de ciertos factores, elementos importantes que expresan el costo de producción de estos. Una industria de transformación incurre en costos como son: consumo de materias primas y/o materiales directos, uso de la mano y la inteligencia del hombre (físico-mental), y una serie de costos adicionales que son imprescindibles para la conclusión de una obra, entre otros se menciona: uso de maquinaria, equipos, herramientas, espacios físicos, etc., con los que es posible llevar a cabo el proceso de transformación (Solo contabilidad, s.f., P. 1).
+            p La fabricación de artículos o productos acabados requiere de la intervención de ciertos factores, elementos importantes que expresan el costo de producción de estos. Una industria de transformación incurre en costos como son: consumo de materias primas y/o materiales directos, uso de la mano y la inteligencia del hombre (físico-mental), y una serie de costos adicionales que son imprescindibles para la conclusión de una obra, entre otros se menciona: uso de maquinaria, equipos, herramientas, espacios físicos, etc., con los que es posible llevar a cabo el proceso de transformación (Solo contabilidad, s.f., p. 1).
     p En consecuencia, el costo de producción de modo general está formado por tres elementos:  
 
     .row.mb-5
@@ -350,8 +351,8 @@
               p Considerados como el tercer elemento del costo, son los que no se identifican fácilmente en un producto (Solo contabilidad, s.f., p. 1).    
 
     p Ahora, se presenta el ejemplo de una empresa manufacturera para su respectivo análisis:
-    p La empresa Sánchez S.A.S. dedicada a la producción de muebles de madera requiere los siguientes elementos.
-    .ul.lista-ul--color
+    p La empresa Sánchez S.A.S. dedicada a la producción de muebles de madera requiere los siguientes elementos:
+    .ul.lista-ul--color.mx-5
       li 
         i.fas.fa-check
         p #[strong MPD:] madera, pintura, sellantes, tornillos, materiales de tapicería, etc.
@@ -362,35 +363,36 @@
         i.fas.fa-check
         p #[strong CIF:] Depreciación y mantenimiento de la máquina, servicios públicos de la planta de producción, supervisores, jefes de planta.
 
-    p A continuación, se profundizará en los elementos del costo. 
+    p.mb-5 A continuación, se profundizará en los elementos del costo. 
 
     h3 Materia prima y/o material directo
     p Son los elementos que están sujetos a transformación y conviene diferenciarlos de la siguiente manera:
 
+    .row.justify-content-around.align-items-center
+      .col-10
+        .crd_01.mb-5
+          .crd_01__icon
+            img(src="@/assets/tema1/img-16.svg", alt="alt")          
+          .crd_01__txt
+            p.text-bold Materia prima
+            p Son los elementos extraídos de la naturaleza que es la fuente de aprovisionamiento de todos los elementos que son necesarios para satisfacer necesidades humanas o convertirse en el primer elemento del costo para las empresas industriales. Se pueden citar como ejemplos: el hierro en su estado natural, el algodón en la fábrica de hilo o telas, los callapos o bolillos para la obtención de madera en los aserraderos, etc; es decir, en las empresas tomadas como ejemplo se puede denominar el primer elemento de costo como “materia prima” (Solo contabilidad, s.f. p.1).
 
-    .crd_01.mb-5
-      .crd_01__icon
-        img(src="@/assets/tema1/img-16.svg", alt="alt")          
-      .crd_01__txt
-        p.text-bold Materia prima
-        p Son los elementos extraídos de la naturaleza que es la fuente de aprovisionamiento de todos los elementos que son necesarios para satisfacer necesidades humanas o convertirse en el primer elemento del costo para las empresas industriales. Se pueden citar como ejemplos: el hierro en su estado natural, el algodón en la fábrica de hilo o telas, los callapos o bolillos para la obtención de madera en los aserraderos, etc. es decir, en las empresas tomadas como ejemplo se puede denominar el primer elemento de costo como “materia prima” (Solo contabilidad, s.f. p.1)
-
-    .crd_01.mb-5
-      .crd_01__icon
-        img(src="@/assets/tema1/img-17.svg", alt="alt")          
-      .crd_01__txt
-        p.text-bold Material directo
-        p Se llama así a los elementos que son sometidos a uno o varios procesos de transformación por otra empresa, los cuales serán sujetos de otros procesos de transformación hasta convertirlos en un producto acabado apto para satisfacer las necesidades humanas. Se hace esta diferenciación debido a que se tiene una confusión al usar en forma indiscriminada el denominativo de “materia prima”, por lo tanto, será costo de “materia prima” para todas las empresas que utilizan los elementos que aún no han sido sometidos a procesos de transformación, y para las aquellas que utilizan como principal elemento de transformación los productos sometidos a procesos de manufactura por otra entidad, se denominará “material directo”.
-        p En general, “material” comprende todos aquellos artículos en su estado natural o transformado son los elementos que sirven para la confección o manufactura de un artículo nuevo y que pueden ser perfectamente medibles y por esta razón son cargables a una unidad identificada; por lo tanto, es el primer elemento del costo de producción.
-
+        .crd_01.mb-5
+          .crd_01__icon
+            img(src="@/assets/tema1/img-17.svg", alt="alt")          
+          .crd_01__txt
+            p.text-bold Material directo
+            p Se llama así a los elementos que son sometidos a uno o varios procesos de transformación por otra empresa, los cuales serán sujetos de otros procesos de transformación hasta convertirlos en un producto acabado apto para satisfacer las necesidades humanas. Se hace esta diferenciación debido a que se tiene una confusión al usar en forma indiscriminada el denominativo de “materia prima”, por lo tanto, será costo de “materia prima” para todas las empresas que utilizan los elementos que aún no han sido sometidos a procesos de transformación, y para aquellas que utilizan como principal elemento de transformación los productos sometidos a procesos de manufactura por otra entidad, se denominará “material directo”.
+            p En general, “material” comprende todos aquellos artículos en su estado natural o transformado son los elementos que sirven para la confección o manufactura de un artículo nuevo y que pueden ser perfectamente medibles y por esta razón son cargables a una unidad identificada; por lo tanto, es el primer elemento del costo de producción.
+    br
     h3 Mano de obra
-    p Para transformar la materia prima y/o material directo en un producto acabado es necesario, además de la maquinaria y equipo, herramientas, muebles y enseres, etc. que determinado número de personas desarrollen un esfuerzo mental y material, el cual recibe el nombre de labor, todas las erogaciones por este concepto se consideran dentro de este título. Por lo tanto, se puede decir que: “sueldos y salarios” es el costo de la retribución que los obreros u operarios perciben por su trabajo en la transformación de los materiales en su estado natural o procesado por otra entidad, en un producto terminado (Solo contabilidad, s.f., p. 1).
+    p.mb-5 Para transformar la materia prima y/o material directo en un producto acabado es necesario, además de la maquinaria y equipo, herramientas, muebles y enseres, etc., que determinado número de personas desarrollen un esfuerzo mental y material, el cual recibe el nombre de labor, todas las erogaciones por este concepto se consideran dentro de este título. Por lo tanto, se puede decir que: “sueldos y salarios” es el costo de la retribución que los obreros u operarios perciben por su trabajo en la transformación de los materiales en su estado natural o procesado por otra entidad, en un producto terminado (Solo contabilidad, s.f., p. 1).
     h3 Costos indirectos de fabricación
-    p Dentro del proceso productivo, hay costos que no pueden identificarse con unidades específicas de producción o con un departamento o con un proceso específico, tales como: la depreciación de bienes de uso, luz y fuerza, combustibles, lubricantes, repuestos y accesorios, etc.; por lo que se denominan: “Servicios de planta”, “Gastos indirectos de fabricación”, “Gastos indirectos de producción”, etc. Es decir, están constituidos por todos los desembolsos o aplicaciones necesarias para llevar a cabo la producción y los cuales, por su naturaleza, no son aplicables directamente al costo de un producto en particular (Solo contabilidad, s.f., p. 1).
+    p.mb-5 Dentro del proceso productivo, hay costos que no pueden identificarse con unidades específicas de producción o con un departamento o con un proceso específico, tales como: la depreciación de bienes de uso, luz y fuerza, combustibles, lubricantes, repuestos y accesorios, etc.; por lo que se denominan: “Servicios de planta”, “Gastos indirectos de fabricación”, “Gastos indirectos de producción”, etc. Es decir, están constituidos por todos los desembolsos o aplicaciones necesarias para llevar a cabo la producción y los cuales, por su naturaleza, no son aplicables directamente al costo de un producto en particular (Solo contabilidad, s.f., p. 1).
 
     h3 Tipos de sistemas de producción
     p Entre los tipos de sistemas de producción más conocidos se encuentran:
-    .row.justify-content-around.align-items-center.p-5  
+    .row.justify-content-around.align-items-center.px-5.mb-4  
 
       .col-lg.justify-content-md-center.align-self-center
 
@@ -403,10 +405,13 @@
             p #[strong Por lotes:] es la producción que se realiza por una referencia determinada o un producto.
           li 
             i.fas.fa-check
-            p #[strong Continúa:] por la alta demanda del producto siempre se está fabricando.
+            p #[strong Continua:] por la alta demanda del producto siempre se está fabricando.
 
-        h3 Tipos de costos de producción:
-        .ul.lista-ul--color
+    h3 Tipos de costos de producción:
+    .row.justify-content-around.align-items-center.px-5  
+
+      .col-lg.justify-content-md-center.align-self-center      
+        .ul.lista-ul--color.mb-5
           li 
             i.fas.fa-check
             p #[strong Costos fijos:] son los costos que hay que pagar en un periodo determinado sin importar si sube o baja la producción.
@@ -420,8 +425,11 @@
             i.fas.fa-check
             p #[strong Costo unitario:] Es lo que cuesta producir cada unidad. 
     
-        h3 Fórmulas costos de producción
-        p Dentro de las fórmulas de los costos de producción encontramos:
+    h3 Fórmulas costos de producción
+    p Dentro de las fórmulas de los costos de producción encontramos:
+    .row.justify-content-around.align-items-center.px-5  
+
+      .col-lg.justify-content-md-center.align-self-center    
         .ul.lista-ul--color
           li 
             i.fas.fa-check
@@ -448,129 +456,129 @@
 
     AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta--azul fondo4")
       .row.t-l(titulo="Costo primo")
-        p Para determinar el costo primo se suma el concepto de Materia Prima Directa (MPD) y Mano de Obra directa (MOD), como se presenta a continuación:
+        p Para determinar el costo primo se suma el concepto de Materia Prima Directa (MPD) y Mano de Obra Directa (MOD), como se presenta a continuación:
           figure.t-l
-            img.img-450-(src='@/assets/tema1/img-19.svg')
+            img.mx-5.img-450-(src='@/assets/tema1/img-19-.svg')
             
 
       div(titulo="Costo de conversión")
      
           p Para hallar el total de los costos de conversión se suma el concepto de mano de obra directa y costos indirectos de fabricación, así:
           figure.t-l
-            img.img-450-(src='@/assets/tema1/img-20.svg')
+            img.mx-5.img-450-(src='@/assets/tema1/img-20-.svg')
 
       div(titulo="Costo de producción")
      
-          p Es de recordar que los costos de producción se encuentran conformado por los siguientes elementos:
+          p Es de recordar que los costos de producción se encuentran conformados por los siguientes elementos:
           figure.t-l
-            img.img-450-(src='@/assets/tema1/img-21.svg')
+            img.mx-5.img-450-(src='@/assets/tema1/img-21-.svg')
             
       div(titulo="Costo unitario")
      
           p Para determinar el costo unitario de un producto se debe tener en cuenta el valor total de la producción y se divide entre las unidades producidas o fabricadas, de la siguiente manera:
           figure.t-l
-            img.img-450-(src='@/assets/tema1/img-22.svg')
+            img.mx-5.img-450-(src='@/assets/tema1/img-22.svg')
 
     h3 Devengo de los costos
     p Para realizar el reconocimiento y medición del costo de producción, es fundamental tener en cuenta las políticas de la empresa y la normatividad vigente. A continuación, se presenta un ejemplo de las cuentas que se utilizan y la naturaleza de estas:
-
-    .row.justify-content-around.align-items-center.mb-5
+  
+    .row.justify-content-around.align-items-center.mb-5.mx-4
       .col-lg-10.justify-content-md-center.align-self-center    
         .tabla-b.color-acento-contenido.mb-5
           table
           
-          thead
-            tr.texto-blanco.tb-h
-              th  CÓDIGO   
-              th  CUENTA   
-              th  DÉBITO   
-              th  CRÉDITO   
-          tbody
-            tr
-              td.text-bold 7105   
-              td Materiales   directos   
-              td $24.893.000   
-              td     
-            tr
-              td.text-bold 7105   
-              td Materiales   directos   
-              td $15.841.000   
-              td     
-            tr
-              td.text-bold 7105   
-              td Materiales   directos   
-              td $905.200   
-              td     
-            tr
-              td.text-bold 7105   
-              td Materiales   directos   
-              td $2.263.000   
-              td     
-            tr
-              td.text-bold 7105   
-              td Materiales   directos   
-              td $11.315.000   
-              td     
-            tr
-              td.text-bold 1405   
-              td Materias   primas   
-              td     
-              td  $ 55.217.200    
-            tr
-              td.text-bold 1410   
-              td Productos   en proceso   
-              td $55.217.200   
-              td     
-            tr
-              td.text-bold 7105   
-              td Materiales   directos   
-              td     
-              td  $5.217.200    
-            tr
-              td.text-bold 1410   
-              td Productos   en proceso   
-              td $3.758.448   
-              td     
-            tr
-              td.text-bold 7205   
-              td Mano de   obra directa   
-              td     
-              td  $3.758.448    
-            tr
-              td.text-bold 7305   
-              td Costos   indirectos de fabricación   
-              td $6.485.758   
-              td     
-            tr
-              td.text-bold 2335   
-              td Costos y   gastos por pagar   
-              td     
-              td  $6.485.758    
-            tr
-              td.text-bold 1410   
-              td Productos   en proceso   
-              td $6.485.758   
-              td     
-            tr
-              td.text-bold 7305   
-              td Costos   indirectos de fabricación   
-              td     
-              td  $6.485.758    
-            tr
-              td.text-bold 1410   
-              td Productos   en proceso   
-              td     
-              td  $65.461.406    
-            tr
-              td.text-bold 1430   
-              td Productos   terminados   
-              td $65.461.406   
-              td     
-            tr
-              td     
-              td.text-bold Sumas iguales   
-              td.text-bold $192.625.770   
-              td.text-bold  $192.625.770    
+            thead
+              tr.texto-blanco.tb-h
+                th.r-r  CÓDIGO   
+                th.r-r  CUENTA   
+                th.r-r  DÉBITO   
+                th.r-r  CRÉDITO   
+            tbody
+              tr
+                td.text-bold.text-center 7105   
+                td.b-c Materiales   directos   
+                td.b-c $24.893.000   
+                td     
+              tr
+                td.text-center.text-bold 7105   
+                td.b-c Materiales   directos   
+                td.b-c $15.841.000   
+                td     
+              tr
+                td.text-center.text-bold 7105   
+                td.b-c Materiales   directos   
+                td.b-c $905.200   
+                td     
+              tr
+                td.text-center.text-bold 7105   
+                td.b-c Materiales   directos   
+                td.b-c $2.263.000   
+                td     
+              tr
+                td.text-center.text-bold 7105   
+                td.b-c Materiales   directos   
+                td.b-c $11.315.000   
+                td     
+              tr
+                td.text-center.text-bold 1405   
+                td.b-c Materias   primas   
+                td.b-c     
+                td  $ 55.217.200    
+              tr
+                td.text-center.text-bold 1410   
+                td.b-c Productos   en proceso   
+                td.b-c $55.217.200   
+                td     
+              tr
+                td.text-center.text-bold 7105   
+                td.b-c Materiales   directos   
+                td.b-c     
+                td  $5.217.200    
+              tr
+                td.text-center.text-bold 1410   
+                td.b-c Productos   en proceso   
+                td.b-c $3.758.448   
+                td     
+              tr
+                td.text-center.text-bold 7205   
+                td.b-c Mano de   obra directa   
+                td.b-c     
+                td  $3.758.448    
+              tr
+                td.text-center.text-bold 7305   
+                td.b-c Costos   indirectos de fabricación   
+                td.b-c $6.485.758   
+                td     
+              tr
+                td.text-center.text-bold 2335   
+                td.b-c Costos y   gastos por pagar   
+                td.b-c     
+                td  $6.485.758    
+              tr
+                td.text-center.text-bold 1410   
+                td.b-c Productos   en proceso   
+                td.b-c $6.485.758   
+                td     
+              tr
+                td.text-center.text-bold 7305   
+                td.b-c Costos   indirectos de fabricación   
+                td.b-c     
+                td  $6.485.758    
+              tr
+                td.text-center.text-bold 1410   
+                td.b-c Productos   en proceso   
+                td.b-c     
+                td  $65.461.406    
+              tr
+                td.text-center.text-bold 1430   
+                td.b-c Productos   terminados   
+                td.b-c $65.461.406   
+                td     
+              tr
+                td.text-center     
+                td.b-c.text-bold Sumas iguales   
+                td.b-c.text-bold $192.625.770   
+                td.text-bold  $192.625.770    
 
 
 

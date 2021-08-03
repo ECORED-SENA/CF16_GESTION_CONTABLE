@@ -9,9 +9,10 @@
           i.fas.fa-info
       h1 Introducción
     
-    .row.img-200.justify-content-around.align-items-center
-      figure.mb-5
-        img(src='@/assets/tema1/img-intro.svg', alt='Marketing')
+    .row.justify-content-around.align-items-center
+      .col-8
+        figure.mb-5
+          img(src='@/assets/tema1/img-intro.svg', alt='Marketing')
     
     p Durante el recorrido por este componente se fortalecerá el conocimiento sobre las generalidades de costos, su importancia, elementos, clasificación y normatividad, así como la temática de la nómina en empresas industriales, lo anterior permite adquirir mayores herramientas para enfrentarse al mundo contable y poner en práctica los conocimientos adquiridos. 
 
