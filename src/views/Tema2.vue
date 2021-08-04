@@ -462,17 +462,17 @@
           
 
         .col-md-6.mb-4.mb-md-0
-          p.text-small Se debe liquidar y relacionar cada concepto por separado correspondiente a lo ganado y al tiempo laborado.
+          p Se debe liquidar y relacionar cada concepto por separado correspondiente a lo ganado y al tiempo laborado.
           .ul.lista-ul--color
             li 
               i.ch.fas.fa-check
-              p.text-small Sueldo básico devengado = sueldo básico concertado entre las partes dividido en 30 multiplicado por días trabajados.
+              p Sueldo básico devengado = sueldo básico concertado entre las partes dividido en 30 multiplicado por días trabajados.
             li 
               i.ch.fas.fa-check
-              p.text-small Auxilio de transporte devengado = auxilio transporte vigente dividido en 30 multiplicado por días trabajados.
+              p Auxilio de transporte devengado = auxilio transporte vigente dividido en 30 multiplicado por días trabajados.
             li 
               i.ch.fas.fa-check
-              p.text-small Demás conceptos, liquidados previamente.
+              p Demás conceptos, liquidados previamente.
 
       
         
@@ -483,20 +483,20 @@
             img.img-250.mb-2(src="@/assets/tema2/img-19.png")
            
         .col-md-6.mb-4.mb-md-0
-          p.text-small Se debe liquidar y relacionar cada concepto por separado correspondiente a lo descontado (salud, pensión, retención en la fuente, otros descuentos).
+          p Se debe liquidar y relacionar cada concepto por separado correspondiente a lo descontado (salud, pensión, retención en la fuente, otros descuentos).
           .ul.lista-ul--color
             li 
               i.ch.fas.fa-check
-              p.text-small #[strong Salud] = Ingreso base de cotización “IBC” (total devengado menos auxilio de transporte) multiplicado por porcentaje vigente para el trabajador (4% 2020). 
+              p #[strong Salud] = Ingreso base de cotización “IBC” (total devengado menos auxilio de transporte) multiplicado por porcentaje vigente para el trabajador (4% 2020). 
             li 
               i.ch.fas.fa-check
-              p.text-small #[strong Pensión ]= Ingreso base de cotización “IBC” (total devengado menos auxilio de transporte) multiplicado por porcentaje vigente para el trabajador (4% 2020). 
+              p #[strong Pensión ]= Ingreso base de cotización “IBC” (total devengado menos auxilio de transporte) multiplicado por porcentaje vigente para el trabajador (4% 2020). 
             li 
               i.ch.fas.fa-check
-              p.text-small #[strong Fondo de solidaridad pensional] = Ingreso base de cotización “IBC” (total devengado menos auxilio de transporte) multiplicado por porcentaje vigente para el trabajador, a partir de 4 salarios mínimos vigentes. 
+              p #[strong Fondo de solidaridad pensional] = Ingreso base de cotización “IBC” (total devengado menos auxilio de transporte) multiplicado por porcentaje vigente para el trabajador, a partir de 4 salarios mínimos vigentes. 
             li 
               i.ch.fas.fa-check
-              p.text-small #[strong Retención en la fuente]. Según previa liquidación.
+              p #[strong Retención en la fuente]. Según previa liquidación.
 
       
 
@@ -507,7 +507,7 @@
             
 
         .col-md-6.mb-4.mb-md-0.justify-content-md-center.align-self-center
-          p.text-small Según la liquidación de cada trabajador se dispone a restar el total de deducciones al total devengado
+          p Según la liquidación de cada trabajador se dispone a restar el total de deducciones al total devengado
 
       .row(numero="4" titulo="Aportes parafiscales y seguridad social")
         .col-md-6
@@ -515,26 +515,26 @@
             img.img-250.mb-2(src="@/assets/tema2/img-21.png")
            
         .col-md-6.mb-4.mb-md-0
-          p.text-small Teniendo en cuenta el ingreso base de cotización “IBC” se calculará los siguientes aportes, que debe realizar el empleador:
+          p Teniendo en cuenta el ingreso base de cotización “IBC” se calculará los siguientes aportes, que debe realizar el empleador:
           .ul.lista-ul--color
             li 
               i.ch.fas.fa-check
-              p.text-small SENA 2% (revisar exoneración).
+              p SENA 2% (revisar exoneración).
             li 
               i.ch.fas.fa-check
-              p.text-small ICBF 3% (revisar exoneración).
+              p ICBF 3% (revisar exoneración).
             li 
               i.ch.fas.fa-check
-              p.text-small Caja de compensación 4%.
+              p Caja de compensación 4%.
             li 
               i.ch.fas.fa-check
-              p.text-small Salud 8,5% (revisar exoneración).
+              p Salud 8,5% (revisar exoneración).
             li 
               i.ch.fas.fa-check
-              p.text-small ARL (según riesgo de cada trabajador).
+              p ARL (según riesgo de cada trabajador).
             li 
               i.ch.fas.fa-check
-              p.text-small Pensión 12%.
+              p Pensión 12%.
 
       .row(numero="5" titulo="Prestaciones sociales")
         .col-md-6
@@ -543,20 +543,20 @@
             
 
         .col-md-6.mb-4.mb-md-0
-          p.text-small Teniendo en cuenta el total devengado de cada trabajador, se liquidará el valor de la provisión a cada una de las prestaciones o beneficios a empleados.    
+          p Teniendo en cuenta el total devengado de cada trabajador, se liquidará el valor de la provisión a cada una de las prestaciones o beneficios a empleados.    
           .ul.lista-ul--color
             li 
               i.ch.fas.fa-check
-              p.text-small Cesantías = Total devengado x 8,33%.
+              p Cesantías = Total devengado x 8,33%.
             li 
               i.ch.fas.fa-check
-              p.text-small Intereses sobre cesantías = Total devengado x 1%.
+              p Intereses sobre cesantías = Total devengado x 1%.
             li 
               i.ch.fas.fa-check
-              p.text-small Prima de servicios = Total devengado x 8,33%.
+              p Prima de servicios = Total devengado x 8,33%.
             li 
               i.ch.fas.fa-check
-              p.text-small Vacaciones = Total devengado x 4,17%.
+              p Vacaciones = Total devengado x 4,17%.
 
     p A continuación, se refleja la contabilización de la nómina de producción:  
     .tabla-b.color-acento-contenido.mb-5.px-5      

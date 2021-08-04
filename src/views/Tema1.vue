@@ -152,9 +152,9 @@
       table
         tbody
           tr.tb-h
-            td.r-r    Empresa comercial   
-            td.r-r    Empresa industrial   
-            td.r-r    Empresa de servicios   
+            td.r-r.text-bold    Empresa comercial   
+            td.r-r     #[strong Empresa industrial  ] 
+            td.r-r.text-bold     Empresa de servicios   
         
           tr.tb-c
             td.tb-c.b-i
@@ -164,9 +164,9 @@
             td.tb-c.b-d
               p En este tipo de empresa prima el   factor intelectual y los insumos que se requieren para llevar a cabo la   prestaci&oacute;n del servicio.
           tr.tb-h
-            td.r-r    Ejemplo   
-            td.r-r    Ejemplo   
-            td.r-r    Ejemplo   
+            td.r-r.text-bold     Ejemplo   
+            td.r-r.text-bold    Ejemplo   
+            td.r-r.text-bold     Ejemplo   
           tr
             td.tb-c.b-i.b-b
               p La empresa Surtimodas S.A.S. se   dedica a vender jeans. Por lo tanto, el costo del producto es el valor de la   compra del jean, posteriormente se fija el precio de venta al p&uacute;blico.
@@ -264,7 +264,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  p.mb-1.texto-blanco.text-bold NIC 2 Inventarios
+                  p.mb-1.texto-blanco.text-bold NIC 2 Inventarios.
                   
                 .col-sm-auto
                   a.boton.color-acento-botones(:href="obtenerLink('/downloads/2_NIC.pdf')" target="_blank")
@@ -306,7 +306,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  p.mb-1.texto-blanco.text-bold Para ampliar los conocimientos sobre la norma, favor ingresar en la NIC 2 a través del siguiente enlace   
+                  p.mb-1.texto-blanco.text-bold Para ampliar los conocimientos sobre la norma, favor ingresar en la NIC 2 a través del siguiente enlace.  
                   
                 .col-sm-auto
                   a.boton.color-acento-botones(:href="obtenerLink('/downloads/NIC 2 - Inventarios.pdf')" target="_blank")
@@ -375,7 +375,7 @@
             img(src="@/assets/tema1/img-16.svg", alt="alt")          
           .crd_01__txt
             p.text-bold Materia prima
-            p Son los elementos extraídos de la naturaleza que es la fuente de aprovisionamiento de todos los elementos que son necesarios para satisfacer necesidades humanas o convertirse en el primer elemento del costo para las empresas industriales. Se pueden citar como ejemplos: el hierro en su estado natural, el algodón en la fábrica de hilo o telas, los callapos o bolillos para la obtención de madera en los aserraderos, etc; es decir, en las empresas tomadas como ejemplo se puede denominar el primer elemento de costo como “materia prima” (Solo contabilidad, s.f. p.1).
+            p Son los elementos extraídos de la naturaleza que es la fuente de aprovisionamiento de todos los elementos que son necesarios para satisfacer necesidades humanas o convertirse en el primer elemento del costo para las empresas industriales. Se pueden citar como ejemplos: el hierro en su estado natural, el algodón en la fábrica de hilo o telas, los callapos o bolillos para la obtención de madera en los aserraderos, etc.; es decir, en las empresas tomadas como ejemplo se puede denominar el primer elemento de costo como “materia prima” (Solo contabilidad, s.f. p.1).
 
         .crd_01.mb-5
           .crd_01__icon

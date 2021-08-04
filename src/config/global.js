@@ -158,7 +158,7 @@ export default {
     },
     {
       referencia:
-        'Estatuto Tributario Nacional. (2012). Art. 114 - 1. -Exoneración de aportes.',
+        'Estatuto Tributario Nacional. (2012). Art. 114 - 1. Exoneración de aportes.',
       link: 'https://estatuto.co/?e=1460',
     },
     {
@@ -166,7 +166,7 @@ export default {
       link: 'https://www.gerencie.com/partes-de-la-nomina.html',
     },
     {
-      referencia: 'Gerencie.com. (2020). Salario.',
+      referencia: 'Gerencie. com. (2020). Salario.',
       link: 'https://www.gerencie.com/salario.html ',
     },
     {
@@ -344,7 +344,7 @@ export default {
       },
       {
         nombre: 'Jorge Leonardo Camacho Pardo',
-        cargo: 'Desarrollo Front-End',
+        cargo: 'Desarrollo front-end',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
