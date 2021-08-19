@@ -74,15 +74,15 @@
           p Es necesario que toda empresa cuente con un proceso de planificación, en la que se van a establecer todas las metas y objetivos que deben cumplir en diferentes periodos (corto, mediano y largo plazo).
 
         div
-          h3 Determinar del costo unitario y su valoración
-          p Algunas empresas no aplican la contabilidad de costos en la producción de sus bienes, y muchas de ellas no conocen cuánto les cuesta producir, distribuir y administrar sus productos o servicios; y, por ende, lo que logran es un fracaso silencioso. 
+          h3.t-l Determinar del costo unitario y su valoración
+          p.t-l Algunas empresas no aplican la contabilidad de costos en la producción de sus bienes, y muchas de ellas no conocen cuánto les cuesta producir, distribuir y administrar sus productos o servicios; y, por ende, lo que logran es un fracaso silencioso. 
 
-          p Podría decirse que el principal objetivo de la contabilidad de costos es la correcta determinación del costo unitario; ya que una vez definido este, se puede fijar un precio de venta. 
+          p.t-l Podría decirse que el principal objetivo de la contabilidad de costos es la correcta determinación del costo unitario; ya que una vez definido este, se puede fijar un precio de venta. 
 
-          p La determinación y valoración del costo unitario pretenden:
-          .row
-            .col-6
-            .col-lg-6
+          p.t-l La determinación y valoración del costo unitario pretenden:
+          .row.t-l
+            
+            .col-lg-6.t-l
               .ul.lista-ul--color.texto-der
                 li 
                   i.fas.fa-check
@@ -105,7 +105,7 @@
 
         div
           h3 Facilitar el control, asignación y optimización de recursos
-          p De acuerdo con las necesidades de producción y los recursos asignados, se realizan registros que permitan controlar y optimizar los mismos.
+          p.t-l De acuerdo con las necesidades de producción y los recursos asignados, se realizan registros que permitan controlar y optimizar los mismos.
         div
           h3 Es una herramienta para la elaboración de presupuestos
           p Para la elaboración del presupuesto de producción se requiere obtener información actualizada sobre los elementos y variables que intervienen en el proceso con el fin de proyectar conforme a las políticas empresariales (Emprendefx.com, s.f., p. 1).     
@@ -420,10 +420,10 @@
             p #[strong Costos variables:] son aquellos que varían según la producción si se aumenta o disminuye.
           li 
             i.fas.fa-check
-            p #[strong Costo total:] Es la suma de los costos fijos y los costos variables.
+            p #[strong Costo total:] es la suma de los costos fijos y los costos variables.
           li 
             i.fas.fa-check
-            p #[strong Costo unitario:] Es lo que cuesta producir cada unidad. 
+            p #[strong Costo unitario:] es lo que cuesta producir cada unidad. 
     
     h3 Fórmulas costos de producción
     p Dentro de las fórmulas de los costos de producción encontramos:
